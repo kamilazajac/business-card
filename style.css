@@ -1,9 +1,14 @@
-html {
-    box-sizing: border-box;
-  }
-  *,
-  *::after,
-  *::before {
-    box-sizing: inherit;
-  }
-  
+body {
+  background: #2c2141;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+}
