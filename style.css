@@ -24,6 +24,8 @@ body {
 }
 
 .person {
+  display: flex;
+  align-items: flex-start;
 }
 .person__description {
   font-size: 16px;
@@ -35,6 +37,7 @@ body {
 }
 .person__info {
   margin-bottom: 24px;
+  display: ;
 }
 .person__link {
   color: #e20613;
@@ -45,6 +48,15 @@ body {
   font-weight: normal;
   margin: 0;
 }
+.person__picture {
+  width: 200px;
+	height: 200px;
+	border-radius: 150px;
+
+
+  margin-right: 32px;
+}
+
 .person__position {
   color: #545454;
   font-size: 18px;
